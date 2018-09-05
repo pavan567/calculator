@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" stylesheets="@../f.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="username" layoutX="68.0" layoutY="102.0" prefHeight="25.0" prefWidth="225.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="68.0" layoutY="175.0" prefHeight="6.0" prefWidth="225.0" promptText="Password" />
+      <Button layoutX="131.0" layoutY="248.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="88.0" styleClass="login-button" text="Login" />
+      <FontAwesomeIconView fill="#b2b2b2" glyphName="LOCK" layoutX="158.0" layoutY="60.0" size="45" text="" wrappingWidth="45.714284896850586" />
+      <FontAwesomeIconView fill="#b2b2b2" glyphName="USER" layoutX="26.0" layoutY="128.0" size="25" wrappingWidth="25.300000190734863" />
+      <FontAwesomeIconView fill="#b2b2b2" glyphName="KEY" layoutX="26.0" layoutY="199.0" size="25" wrappingWidth="25.300000190734863" />
+   </children>
+</AnchorPane>

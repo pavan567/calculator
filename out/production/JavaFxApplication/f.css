@@ -1,0 +1,38 @@
+. {
+
+    -fx-primany:#2A2E37;
+    -fx-secoundary:#FFFF8B;
+    -fx-primarytext:#B2B2B2;
+}
+
+.root{
+
+    -fx-background-color: #2A2E37;
+}
+
+  -glyph-icon{
+   -fx-fill:#B2B2B2;
+
+}
+  .button{
+      -fx-text-fill: #B2B2B2;
+  }
+
+  .login-button{
+      -fx-background-color:#2A2E37;
+      -fx-border-color: #FFFF8B;
+      -fx-border-radius: 20px;
+      -fx-background-radius: 20px;
+
+  }
+.login-button:hover{
+
+    -fx-border-color: #FFFF8B;
+    -fx-background-color: #FFFF8B;
+-fx-text-fill: #2A2E37;
+}
+  .text-field{
+      -fx-text-fill: #B2B2B2;
+      -fx-font-size: 13pt;
+      -jfx-focus-color:#FFFF8B;
+  }
